@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+    model-viewer {
+      width: 100vw;
+      height: 90vh;
+      background-color: #1a1a1a;
+    }
+    .controls { color: #aaa; font-family: sans-serif; font-size: 13px; padding: 6px; }
+  </style>
+</head>
+<body>
+  <model-viewer
+    id="viewer"
+    src="/static/model.glb"
+    alt="3D Skull Model"
+    ar
+    ar-modes="scene-viewer quick-look"
+    camera-controls
+    auto-rotate
+    auto-rotate-delay="0"
+    rotation-per-second="30deg"
+    shadow-intensity="1"
+    shadow-softness="1"
+    exposure="1.2"
+    min-camera-orbit="-Infinity 0deg auto"
+    max-camera-orbit="Infinity 180deg auto"
+    camera-orbit="0deg 75deg 2.5m"
+    interaction-prompt="none">
+  </model-viewer>
+  <div class="controls">Drag to rotate &nbsp;|&nbsp; Pinch to zoom &nbsp;|&nbsp; Tap AR to place in your space</div>
+
+  <script>
+    const viewer = document.getElementById('viewer');
+    // Resume auto-rotate after user interaction
+    viewer.addEventListener('camera-change', () => {
+      clearTimeout(viewer._rotateTimer);
+      viewer.autoRotate = false;
+      viewer._rotateTimer = setTimeout(() => { viewer.autoRotate = true; }, 2000);
+    });
+  </script>
+</body>
+</html>

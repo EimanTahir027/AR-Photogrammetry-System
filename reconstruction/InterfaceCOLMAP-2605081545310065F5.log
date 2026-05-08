@@ -1,0 +1,21 @@
+15:45:31 [App     ] OpenMVS x64 v2.4.0
+15:45:31 [App     ] Build date: Jan 20 2026, 00:13:37
+15:45:31 [App     ] CPU: AMD Ryzen 5 7430U with Radeon Graphics          (12 cores)
+15:45:31 [App     ] RAM: 7.41GB Physical Memory 128.00TB Virtual Memory
+15:45:31 [App     ] OS: Windows 11+ x64
+15:45:31 [App     ] Disk: 139.53GB (237.38GB) space
+15:45:31 [App     ] SSE & AVX compatible CPU & OS detected
+15:45:31 [App     ] Command line: InterfaceCOLMAP -i sparse/0 -o model.mvs --image-folder ../data/raw_images
+15:45:31 [App     ] error: unable to open file 'sparse/0/sparse/cameras.txt'
+15:45:31 [App     ] error: unable to open file 'sparse/0/sparse/cameras.bin'
+15:45:31 [App     ] MEMORYINFO: {
+15:45:31 [App     ] 	PageFaultCount 1606
+15:45:31 [App     ] 	PeakWorkingSetSize 6.04MB
+15:45:31 [App     ] 	WorkingSetSize 6.04MB
+15:45:31 [App     ] 	QuotaPeakPagedPoolUsage 70.95KB
+15:45:31 [App     ] 	QuotaPagedPoolUsage 70.66KB
+15:45:31 [App     ] 	QuotaPeakNonPagedPoolUsage 9.70KB
+15:45:31 [App     ] 	QuotaNonPagedPoolUsage 9.57KB
+15:45:31 [App     ] 	PagefileUsage 1.18MB
+15:45:31 [App     ] 	PeakPagefileUsage 1.18MB
+15:45:31 [App     ] } ENDINFO
