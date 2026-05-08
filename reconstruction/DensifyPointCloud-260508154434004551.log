@@ -1,0 +1,20 @@
+15:44:34 [App     ] OpenMVS x64 v2.4.0
+15:44:34 [App     ] Build date: Jan 20 2026, 00:13:37
+15:44:34 [App     ] CPU: AMD Ryzen 5 7430U with Radeon Graphics          (12 cores)
+15:44:34 [App     ] RAM: 7.41GB Physical Memory 128.00TB Virtual Memory
+15:44:34 [App     ] OS: Windows 11+ x64
+15:44:34 [App     ] Disk: 139.53GB (237.38GB) space
+15:44:34 [App     ] SSE & AVX compatible CPU & OS detected
+15:44:34 [App     ] Command line: DensifyPointCloud reconstruction/model.nvm -w reconstruction/
+15:44:34 [Scene   ] error: unable to open file 'reconstruction/reconstruction/model.nvm'
+15:44:34 [App     ] MEMORYINFO: {
+15:44:34 [App     ] 	PageFaultCount 2261
+15:44:34 [App     ] 	PeakWorkingSetSize 8.53MB
+15:44:34 [App     ] 	WorkingSetSize 8.53MB
+15:44:34 [App     ] 	QuotaPeakPagedPoolUsage 102.52KB
+15:44:34 [App     ] 	QuotaPagedPoolUsage 102.23KB
+15:44:34 [App     ] 	QuotaPeakNonPagedPoolUsage 15.01KB
+15:44:34 [App     ] 	QuotaNonPagedPoolUsage 14.88KB
+15:44:34 [App     ] 	PagefileUsage 2.51MB
+15:44:34 [App     ] 	PeakPagefileUsage 2.51MB
+15:44:34 [App     ] } ENDINFO

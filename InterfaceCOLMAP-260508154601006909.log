@@ -1,0 +1,21 @@
+15:46:01 [App     ] OpenMVS x64 v2.4.0
+15:46:01 [App     ] Build date: Jan 20 2026, 00:13:37
+15:46:01 [App     ] CPU: AMD Ryzen 5 7430U with Radeon Graphics          (12 cores)
+15:46:01 [App     ] RAM: 7.41GB Physical Memory 128.00TB Virtual Memory
+15:46:01 [App     ] OS: Windows 11+ x64
+15:46:01 [App     ] Disk: 139.53GB (237.38GB) space
+15:46:01 [App     ] SSE & AVX compatible CPU & OS detected
+15:46:01 [App     ] Command line: InterfaceCOLMAP -i C:\Users\eiman\Downloads\AR-Photogrammetry-System\reconstruction\sparse\0 -o C:\Users\eiman\Downloads\AR-Photogrammetry-System\reconstruction\model.mvs --image-folder C:\Users\eiman\Downloads\AR-Photogrammetry-System\data\raw_images
+15:46:01 [App     ] error: unable to open file 'C:/Users/eiman/Downloads/AR-Photogrammetry-System/reconstruction/sparse/0/sparse/cameras.txt'
+15:46:01 [App     ] error: unable to open file 'C:/Users/eiman/Downloads/AR-Photogrammetry-System/reconstruction/sparse/0/sparse/cameras.bin'
+15:46:01 [App     ] MEMORYINFO: {
+15:46:01 [App     ] 	PageFaultCount 1605
+15:46:01 [App     ] 	PeakWorkingSetSize 6.03MB
+15:46:01 [App     ] 	WorkingSetSize 6.03MB
+15:46:01 [App     ] 	QuotaPeakPagedPoolUsage 70.66KB
+15:46:01 [App     ] 	QuotaPagedPoolUsage 70.66KB
+15:46:01 [App     ] 	QuotaPeakNonPagedPoolUsage 9.70KB
+15:46:01 [App     ] 	QuotaNonPagedPoolUsage 9.57KB
+15:46:01 [App     ] 	PagefileUsage 1.18MB
+15:46:01 [App     ] 	PeakPagefileUsage 1.18MB
+15:46:01 [App     ] } ENDINFO
