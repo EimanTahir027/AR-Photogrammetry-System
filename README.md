@@ -2,6 +2,20 @@
 
 A full-stack pipeline that transforms real-world object photos into an interactive, AR-ready 3D model viewable on any mobile device via QR code.
 
+<table>
+  <tr>
+    <td width="45%" valign="center">
+      <img src="images/Preview.jpg" width="100%" style="display:block; margin:0;" alt="Preview" />
+    </td>
+    <td width="10%" valign="center" style="font-size:48px; text-align:center;">
+      ⇉
+    </td>
+    <td width="45%" valign="center">
+      <img src="images/skull.gif" width="100%" style="display:block; margin:0;" alt="Skull GIF" />
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## Overview
