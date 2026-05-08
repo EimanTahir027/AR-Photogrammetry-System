@@ -1,4 +1,4 @@
-# Contributing to Parallel and Distributed Computing :
+# Contributing to  AR-Photogrammetry-System:
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
