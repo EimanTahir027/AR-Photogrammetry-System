@@ -4,13 +4,19 @@ A full-stack pipeline that transforms real-world object photos into an interacti
 
 <table>
   <tr>
-    <td width="45%" valign="center">
+    <td width="30%" valign="center">
       <img src="images/Preview.jpg" width="100%" style="display:block; margin:0;" alt="Preview" />
     </td>
-    <td width="10%" valign="center" style="font-size:48px; text-align:center;">
-      ⇉
+    <td width="3%" valign="center" style="text-align:center; font-size:40px; color:#00D4FF; font-weight:bold;">
+      ➡
     </td>
-    <td width="45%" valign="center">
+    <td width="30%" valign="center">
+      <img src="images/viewer_qr.png" width="100%" style="display:block; margin:0;" alt="Preview" />
+    </td>
+    <td width="3%" valign="center" style="text-align:center; font-size:40px; color:#00D4FF; font-weight:bold;">
+      ➡
+    </td>
+    <td width="34%" valign="center">
       <img src="images/skull.gif" width="100%" style="display:block; margin:0;" alt="Skull GIF" />
     </td>
   </tr>
